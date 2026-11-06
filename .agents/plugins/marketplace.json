@@ -1,11 +1,11 @@
 {
   "name": "r00kie-liu-writing",
   "interface": {
-    "displayName": "R00Kie-Liu Writing Skills"
+    "displayName": "琢言 · Zhuoyan"
   },
   "plugins": [
     {
-      "name": "polish-technical-blog-zh",
+      "name": "zhuoyan",
       "source": {
         "source": "local",
         "path": "./"

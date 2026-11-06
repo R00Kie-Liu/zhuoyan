@@ -2,7 +2,7 @@
 
 ## 0.1.0 — 2026-11-06
 
-- 首次独立发布，提供标准 skill、Agent Plugins 清单和 GitHub marketplace 安装来源。
+- 以“琢言 · Zhuoyan”首次独立发布，提供标准 skill、Agent Plugins 清单和 GitHub marketplace 安装来源。
 - 支持技术博客、论文和专业解释的审稿、轻改、深改及起草，保留事实与证据强度。
 - 处理讲解难度评价、编排提示，以及用空间比喻表达重要性或关注度的套话。
 - 保留实际技术风险、数据移动和瓶颈转移；忽略代码、公式、frontmatter 与 HTML 标签属性。

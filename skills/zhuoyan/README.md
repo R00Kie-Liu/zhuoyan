@@ -1,4 +1,6 @@
-# polish-technical-blog-zh
+# 琢言 · Zhuoyan
+
+让表达自然，让论证准确。
 
 面向中文技术博客、论文和专业解释的写作 skill。支持审稿、轻改、深改和起草，保留事实、证据强度、公式、代码、引用和必要条件。
 
@@ -6,20 +8,20 @@
 
 ## 安装到 Codex 项目
 
-解压发行包，将整个 `polish-technical-blog-zh` 目录复制到项目的 `.agents/skills/` 下：
+解压发行包，将整个 `zhuoyan` 目录复制到项目的 `.agents/skills/` 下：
 
 ```text
 your-project/
 └── .agents/
     └── skills/
-        └── polish-technical-blog-zh/
+        └── zhuoyan/
             ├── SKILL.md
             ├── agents/
             ├── references/
             └── scripts/
 ```
 
-保留目录名与子目录结构。若已有同名 skill，先备份旧目录，再替换；不要将新版本继续嵌套到旧目录里。重新打开项目会话后，显式使用 `$polish-technical-blog-zh` 调用。
+保留目录名与子目录结构。若已有同名 skill，先备份旧目录，再替换；不要将新版本继续嵌套到旧目录里。重新打开项目会话后，显式使用 `$zhuoyan` 调用。
 
 其他支持 `SKILL.md` 的工具可以按各自的技能目录安装；本发行包在 Codex 环境中验证，未逐一测试其他客户端。
 
@@ -28,19 +30,19 @@ your-project/
 审稿，保留原文：
 
 ```text
-用 $polish-technical-blog-zh 审阅这篇文章，只给出位置、问题和建议，不修改正文。
+用 $zhuoyan 审阅这篇文章，只给出位置、问题和建议，不修改正文。
 ```
 
 轻改，保留结构：
 
 ```text
-用 $polish-technical-blog-zh 轻改这篇技术博客，删除空泛的讲解评价和编排提示，保留段落顺序、公式、代码、引用和结论强度。
+用 $zhuoyan 轻改这篇技术博客，删除空泛的讲解评价和编排提示，保留段落顺序、公式、代码、引用和结论强度。
 ```
 
 重写结构：
 
 ```text
-用 $polish-technical-blog-zh 深改这篇稿件，围绕实际技术问题重排论证。保留全部关键机制、实验条件、负面结果和适用边界。
+用 $zhuoyan 深改这篇稿件，围绕实际技术问题重排论证。保留全部关键机制、实验条件、负面结果和适用边界。
 ```
 
 未指定改写程度时，完整草稿默认轻改。技能不会为补齐文章而捏造实验、来源或作者经历。
@@ -50,7 +52,7 @@ your-project/
 脚本仅依赖 Python 3 标准库，不需要 API key，也不发送网络请求。以下命令从项目根目录执行：
 
 ```sh
-SKILL_DIR="$PWD/.agents/skills/polish-technical-blog-zh"
+SKILL_DIR="$PWD/.agents/skills/zhuoyan"
 python3 "$SKILL_DIR/scripts/audit_zh_blog.py" path/to/article.md
 python3 "$SKILL_DIR/scripts/audit_zh_blog.py" path/to/article.md --json
 ```

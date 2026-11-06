@@ -1,13 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "polish-technical-blog-zh",
+  "name": "zhuoyan",
   "version": "0.1.0",
   "description": "Chinese technical writing: review and polish while preserving facts, formulas, code, and evidence strength.",
   "author": {
     "name": "R00Kie-Liu",
     "url": "https://github.com/R00Kie-Liu"
   },
-  "repository": "https://github.com/R00Kie-Liu/polish-technical-blog-zh",
+  "repository": "https://github.com/R00Kie-Liu/zhuoyan",
   "license": "CC0-1.0 AND MIT",
   "keywords": [
     "chinese",
@@ -18,7 +18,7 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "中文技术写作润色",
+        "displayName": "琢言 · Zhuoyan",
         "shortDescription": "清理空泛修辞与编排提示，保留事实、公式和证据强度",
         "developerName": "R00Kie-Liu",
         "category": "Productivity"

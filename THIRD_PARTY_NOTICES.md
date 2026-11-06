@@ -6,8 +6,8 @@
 
 | 项目 | 使用范围 | 随包保留的许可 |
 | --- | --- | --- |
-| [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing) | 句子功能判断、反防御检查与必要技术条件保护 | [LICENSE-Kiterlin.txt](skills/polish-technical-blog-zh/references/LICENSE-Kiterlin.txt) |
-| [Adkid-Zephyr/anti-defensive-writing-Skill](https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill) | 贡献组织、实验论证职责与摘要引言结构 | [LICENSE-Adkid-Zephyr.txt](skills/polish-technical-blog-zh/references/LICENSE-Adkid-Zephyr.txt) |
+| [Kiterlin/anti-defensive-writing](https://github.com/Kiterlin/anti-defensive-writing) | 句子功能判断、反防御检查与必要技术条件保护 | [LICENSE-Kiterlin.txt](skills/zhuoyan/references/LICENSE-Kiterlin.txt) |
+| [Adkid-Zephyr/anti-defensive-writing-Skill](https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill) | 贡献组织、实验论证职责与摘要引言结构 | [LICENSE-Adkid-Zephyr.txt](skills/zhuoyan/references/LICENSE-Adkid-Zephyr.txt) |
 
 再分发这些改编部分时，请保留各自的版权与许可通知。
 

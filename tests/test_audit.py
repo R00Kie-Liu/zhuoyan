@@ -6,7 +6,7 @@ import sys
 import tempfile
 import unittest
 
-SCRIPT = Path(__file__).resolve().parents[1] / 'skills/polish-technical-blog-zh/scripts/audit_zh_blog.py'
+SCRIPT = Path(__file__).resolve().parents[1] / 'skills/zhuoyan/scripts/audit_zh_blog.py'
 audit = runpy.run_path(str(SCRIPT))['audit']
 STYLE_RULES = {'exposition-evaluation', 'editorial-retention-frame', 'salience-spatial-metaphor'}
 
